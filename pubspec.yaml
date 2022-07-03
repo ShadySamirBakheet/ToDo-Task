@@ -1,0 +1,45 @@
+name: todo
+description: Manage Users Tasks
+version: 1.0.0+1
+publish_to: none
+
+environment:
+  sdk: ">=2.17.0 <3.0.0"
+
+dependencies:
+  bloc: ^8.0.3
+  dartz: ^0.10.1
+  dio: ^4.0.6
+  dio_cache_interceptor: ^3.2.7
+  drift: ^1.6.0
+  drift_sqflite: ^1.0.0
+  equatable: ^2.0.3
+  flutter:
+    sdk: flutter
+  flutter_bloc: ^8.0.1
+  flutter_form_builder: ^7.3.1
+  flutter_localizations:
+    sdk: flutter
+  flutter_svg: ^1.1.0
+  get_it: ^7.2.0
+  hive: ^2.2.1
+  hive_flutter: ^1.1.0
+  intl: ^0.17.0
+  sqlite3_flutter_libs: ^0.5.6
+
+dev_dependencies:
+  bloc_test: ^9.0.3
+  build_runner: ^2.1.11
+  drift_dev: ^1.6.0
+  flutter_test:
+    sdk: flutter
+  hive_test: ^1.0.1
+  mocktail: ^0.3.0
+  very_good_analysis: ^3.0.0
+
+flutter:
+  uses-material-design: true
+  generate: true
+
+  assets:
+    - assets/icons/
